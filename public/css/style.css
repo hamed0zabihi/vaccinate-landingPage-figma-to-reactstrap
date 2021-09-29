@@ -1,0 +1,13 @@
+/* fonts */
+@import "../fonts/sfu/sfui.css";
+/* header */
+/* navbar */
+.nav-link {
+  font-family: "SF UI Display";
+  font-style: normal;
+  font-weight: normal;
+
+  color: #1f1534 !important;
+  opacity: 0.5;
+  text-transform: capitalize;
+}
