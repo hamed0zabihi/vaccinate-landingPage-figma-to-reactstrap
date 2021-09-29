@@ -4,6 +4,7 @@
 :root {
   --mainFontFamily: "SF UI Display";
   --mainColor: #458ff6;
+  --primaryColor: #0e1111;
 }
 /* body */
 body {
@@ -28,7 +29,7 @@ body {
   font-size: 48px;
   line-height: 57px;
   /* Colors/Primary Text/Dark */
-  color: #0e1111;
+  color: var(--primaryColor);
 }
 .hero-title-color {
   color: var(--mainColor);
@@ -46,4 +47,56 @@ body {
   text-transform: capitalize;
   font-family: var(--mainFontFamily);
   border: none !important;
+}
+/* step to get vaccine section */
+.cards-section {
+}
+.steps-tringle {
+  position: relative;
+}
+.steps-tringle:not(:first-child):before {
+  position: absolute;
+  content: " ";
+  background: url(../img/steptogetvaccine/Triangle.svg) no-repeat;
+
+  background-repeat: no-repeat;
+  background-position: 75% 40%;
+
+  top: 50%;
+  left: 0;
+  width: 20px;
+  height: 30px;
+  z-index: 1;
+  transform: translate(-50%, -15px);
+  text-align: center;
+}
+.feature-box {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 80px 80px rgba(0, 0, 0, 0.04),
+    0px 33.4221px 33.4221px rgba(0, 0, 0, 0.0287542),
+    0px 17.869px 17.869px rgba(0, 0, 0, 0.0238443),
+    0px 10.0172px 10.0172px rgba(0, 0, 0, 0.02),
+    0px 5.32008px 5.32008px rgba(0, 0, 0, 0.0161557),
+    0px 2.21381px 2.21381px rgba(0, 0, 0, 0.0112458);
+  border-radius: 20px;
+}
+.steps-to-get-vaccine-title {
+  font-family: var(--mainFontFamily);
+  font-style: normal;
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+.steps-to-get-vaccine-caption {
+  font-family: var(--mainFontFamily);
+  font-style: normal;
+  font-weight: bold;
+}
+.steps-to-get-vaccine-paragraph {
+  font-family: var(--mainFontFamily);
+  font-style: normal;
+  font-weight: 300;
+  color: #7d7987;
+  text-align: center;
+  font-size: small;
 }
