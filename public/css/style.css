@@ -1,13 +1,49 @@
 /* fonts */
 @import "../fonts/sfu/sfui.css";
+/* root */
+:root {
+  --mainFontFamily: "SF UI Display";
+  --mainColor: #458ff6;
+}
+/* body */
+body {
+  font-family: var(--mainFontFamily);
+}
 /* header */
 /* navbar */
 .nav-link {
-  font-family: "SF UI Display";
+  font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: normal;
 
   color: #1f1534 !important;
   opacity: 0.5;
   text-transform: capitalize;
+}
+/* hero section */
+.hero-title {
+  font-family: var(--mainFontFamily);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  /* Colors/Primary Text/Dark */
+  color: #0e1111;
+}
+.hero-title-color {
+  color: var(--mainColor);
+}
+.hero-paraghraph {
+  font-family: var(--mainFontFamily);
+  font-style: normal;
+  font-weight: normal;
+  color: #7d7987;
+  text-align: justify;
+}
+.hero-button {
+  background-color: var(--mainColor) !important;
+  border-radius: 55px !important;
+  text-transform: capitalize;
+  font-family: var(--mainFontFamily);
+  border: none !important;
 }

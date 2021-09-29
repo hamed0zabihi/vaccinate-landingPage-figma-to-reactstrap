@@ -14,7 +14,7 @@ const HeaderSection = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <header>
+    <header className="pt-3">
       <Container>
         <div>
           <Navbar expand="md">
