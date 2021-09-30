@@ -94,7 +94,8 @@ body {
 }
 .steps-to-get-vaccine-title,
 .about-vaccinate-title,
-.learning-vaccine-title {
+.learning-vaccine-title,
+.app-vaccinate-title {
   font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: bold;
@@ -115,7 +116,8 @@ body {
 }
 /* about vaccine */
 .about-vaccinate-paragraph,
-.learning-vaccine-paragraph {
+.learning-vaccine-paragraph,
+.app-vaccine-paragraph {
   font-family: var(--mainFontFamily);
   color: #7d7987;
   text-align: justify;
@@ -129,4 +131,10 @@ body {
   border: 1px solid var(--mainColor) !important;
   background-color: #ffffff !important;
 }
-/* learning section */
+/* app section */
+.app-vaccinate-section {
+  background-image: url(../img/appdownload/app-background-img-05.svg);
+  background-position: 105% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
