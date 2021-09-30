@@ -16,7 +16,6 @@ body {
   font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: normal;
-
   color: #1f1534 !important;
   opacity: 0.5;
   text-transform: capitalize;
@@ -31,7 +30,8 @@ body {
   /* Colors/Primary Text/Dark */
   color: var(--primaryColor);
 }
-.hero-title-color {
+.hero-title-color,
+.title-color {
   color: var(--mainColor);
 }
 .hero-paraghraph {
@@ -63,6 +63,7 @@ body {
   opacity: 1 !important;
   margin: auto;
 }
+/*  */
 .steps-tringle {
   position: relative;
 }
@@ -70,10 +71,8 @@ body {
   position: absolute;
   content: " ";
   background: url(../img/steptogetvaccine/Triangle.svg) no-repeat;
-
   background-repeat: no-repeat;
   background-position: 75% 40%;
-
   top: 50%;
   left: 0;
   width: 20px;
@@ -93,7 +92,9 @@ body {
     0px 2.21381px 2.21381px rgba(0, 0, 0, 0.0112458);
   border-radius: 20px;
 }
-.steps-to-get-vaccine-title {
+.steps-to-get-vaccine-title,
+.about-vaccinate-title,
+.learning-vaccine-title {
   font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: bold;
@@ -112,3 +113,20 @@ body {
   text-align: center;
   font-size: small;
 }
+/* about vaccine */
+.about-vaccinate-paragraph,
+.learning-vaccine-paragraph {
+  font-family: var(--mainFontFamily);
+  color: #7d7987;
+  text-align: justify;
+}
+.about-vaccinate-btn,
+.learning-vaccinate-btn {
+  color: var(--mainColor) !important;
+  border-radius: 55px !important;
+  text-transform: capitalize;
+  font-family: var(--mainFontFamily);
+  border: 1px solid var(--mainColor) !important;
+  background-color: #ffffff !important;
+}
+/* learning section */

@@ -11,7 +11,6 @@ const StepsToGetVaccinatedSection = () => {
             <h2 className="steps-to-get-vaccine-title ">
               Steps to <b className="hero-title-color">Get Vaccinated</b>
             </h2>
-
             <hr className="hr-line" />
           </Col>
         </Row>
