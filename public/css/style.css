@@ -49,7 +49,19 @@ body {
   border: none !important;
 }
 /* step to get vaccine section */
-.cards-section {
+.stets-to-get-section {
+  background-image: url(../img/steptogetvaccine/step-background-image-4.svg);
+  background-position: -25% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hr-line {
+  border: 10px solid green;
+  width: 10%;
+  border: 2px solid #0e1111;
+  border-radius: 5px;
+  opacity: 1 !important;
+  margin: auto;
 }
 .steps-tringle {
   position: relative;

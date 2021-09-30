@@ -4,13 +4,15 @@ import StepCard from "./StepCard";
 
 const StepsToGetVaccinatedSection = () => {
   return (
-    <section className="py-5 my-5">
+    <section className="py-5 my-5 stets-to-get-section">
       <Container>
         <Row className="align-items-center ">
           <Col className="justify-content-center text-center">
             <h2 className="steps-to-get-vaccine-title ">
               Steps to <b className="hero-title-color">Get Vaccinated</b>
             </h2>
+
+            <hr className="hr-line" />
           </Col>
         </Row>
 
