@@ -5,6 +5,7 @@
   --mainFontFamily: "SF UI Display";
   --mainColor: #458ff6;
   --primaryColor: #0e1111;
+  --paragraphColor: #7d7987;
 }
 /* body */
 body {
@@ -41,7 +42,7 @@ a {
   font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: normal;
-  color: #7d7987;
+  color: var(--paragraphColor);
   text-align: justify;
 }
 .hero-button {
@@ -99,7 +100,8 @@ a {
 .about-vaccinate-title,
 .learning-vaccine-title,
 .app-vaccinate-title,
-.blog-title-section {
+.blog-title-section,
+.invitation-title-section {
   font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: bold;
@@ -114,7 +116,7 @@ a {
   font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: 300;
-  color: #7d7987;
+  color: var(--paragraphColor);
   text-align: center;
   font-size: small;
 }
@@ -123,7 +125,7 @@ a {
 .learning-vaccine-paragraph,
 .app-vaccine-paragraph {
   font-family: var(--mainFontFamily);
-  color: #7d7987;
+  color: var(--paragraphColor);
   text-align: justify;
 }
 .about-vaccinate-btn,
@@ -155,7 +157,7 @@ a {
   font-family: var(--mainFontFamily);
   font-style: normal;
   font-weight: 300;
-  color: #7d7987;
+  color: var(--paragraphColor);
   text-align: justify;
   font-size: small;
 }
@@ -179,5 +181,69 @@ a {
   background-color: #ffffff;
   border: 2px solid var(--mainColor) !important;
   border-radius: 55px !important;
-  padding: 20px 55px;
+  padding: 20px 45px;
+}
+/* invatation */
+.final-invitation {
+  background-image: url(../img/invitation/invitation-backgroun-01.svg);
+  background-position: 100% 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.invitation-btn {
+  display: inline-block;
+  font-family: var(--mainFontFamily);
+  color: #fff;
+  font-style: normal;
+  text-transform: capitalize;
+  background-color: var(--mainColor);
+  border: 2px solid var(--mainColor) !important;
+  border-radius: 55px !important;
+  padding: 20px 45px;
+}
+.invitation-caption {
+  font-family: var(--mainFontFamily);
+  font-style: normal;
+  font-weight: normal;
+  color: var(--paragraphColor);
+}
+/* footer */
+.footer-section {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.footer-image-background {
+  background-image: url(../img/invitation/invitation-backgroun-01.svg);
+  background-position: 0% 105%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.footer-social-icon .list-group-item {
+  background: none;
+  color: #ffffff;
+  border: none;
+}
+.footer-widget-discription {
+  font-family: var(--mainFontFamily);
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  text-align: justify;
+  font-size: small;
+}
+.footer-widget-title {
+  font-family: var(--mainFontFamily);
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+}
+.footer-widget-link {
+  margin-top: 1.5rem;
+}
+.footer-widget-link .list-group-item {
+  background: none;
+  color: #ffffff;
+  border: none;
+  font-family: var(--mainFontFamily);
+  font-size: small;
+  padding: 0.5rem 0rem;
 }
