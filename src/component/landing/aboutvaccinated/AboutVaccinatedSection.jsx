@@ -20,9 +20,16 @@ const AboutVaccinatedSection = () => {
                   location. Accessible on mobile and online for everyone.
                 </p>
               </Col>
-              <ButtonToggle className=" about-vaccinate-btn py-2 px-3 mt-2">
-                Learn More
-              </ButtonToggle>
+
+              <Col className="my-1" xs="12">
+                <a
+                  href="/#"
+                  role="button"
+                  className="justify-content-center  about-vaccinate-btn my-5"
+                >
+                  Learn More
+                </a>
+              </Col>
             </Col>
           </Col>
           <Col md="7" sm="12" className="order-0 order-md-1 my-2">

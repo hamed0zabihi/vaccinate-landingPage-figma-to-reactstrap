@@ -25,10 +25,12 @@ const DownloadAppSection = () => {
                 <img
                   src="./img/appdownload/app-appstore-btn-03.svg"
                   alt="appstore download app"
+                  className="download-appstore-link"
                 />
                 <img
                   src="./img/appdownload/app-googleplay-img-04.svg"
                   alt="googleplay download app"
+                  className="download-googleplay-link"
                 />
               </Col>
             </Col>

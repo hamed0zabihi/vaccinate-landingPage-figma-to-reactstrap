@@ -11,9 +11,10 @@ const HeroSection = () => {
               <Col sm="12" md="6" className="order-1 order-md-0  pt-5">
                 <Col className="hero-content my-auto">
                   <h1 className="hero-title">
-                    Easy registration &{" "}
-                    <b className="hero-title-color">vaccinated</b> yourself
+                    Easy registration &
+                    <b className="hero-title-color"> vaccinated</b> yourself
                   </h1>
+
                   <Col sm="8" className="">
                     <p className="hero-paraghraph text-justify p-2 ps-0">
                       Vaccinated provides you an easy-registration to vaccinate
@@ -21,9 +22,16 @@ const HeroSection = () => {
                       location. Accessible on mobile and online for everyone.
                     </p>
                   </Col>
-                  <ButtonToggle className="hero-button py-2 px-3 mt-2">
-                    register now
-                  </ButtonToggle>
+
+                  <Col className="my-1" xs="12">
+                    <a
+                      href="/#"
+                      role="button"
+                      className="justify-content-center hero-button my-5"
+                    >
+                      register now
+                    </a>
+                  </Col>
                 </Col>
               </Col>
 

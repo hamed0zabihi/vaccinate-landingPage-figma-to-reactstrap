@@ -17,7 +17,7 @@ const HeaderSection = () => {
     <header className="pt-3">
       <Container>
         <div>
-          <Navbar expand="md">
+          <Navbar expand="md" light>
             <NavbarBrand href="/">
               <img src="./img/logo/logo.svg" alt="logo" />
             </NavbarBrand>

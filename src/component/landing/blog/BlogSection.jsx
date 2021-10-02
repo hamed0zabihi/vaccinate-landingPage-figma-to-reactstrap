@@ -41,10 +41,9 @@ const BlogSection = () => {
             <a
               name=""
               id=""
-              class="btn btn-success"
               href="/#"
               role="button"
-              className="justigy-content-center blog-btn-view-all"
+              className="justify-content-center blog-btn-view-all"
             >
               view all
             </a>

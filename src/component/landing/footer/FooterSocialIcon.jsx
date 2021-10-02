@@ -6,16 +6,16 @@ const FooterSocialIcon = () => {
     <Col className="footer-social-icon ml-auto">
       <ListGroup horizontal className="justify-content-end">
         <ListGroupItem tag="a" href="#">
-          <i class="fa fa-instagram"></i>
+          <i className="fa fa-instagram"></i>
         </ListGroupItem>
         <ListGroupItem tag="a" href="#">
-          <i class="fa fa-facebook-f"></i>
+          <i className="fa fa-facebook-f"></i>
         </ListGroupItem>
         <ListGroupItem tag="a" href="#">
-          <i class="fa fa-linkedin"></i>
+          <i className="fa fa-linkedin"></i>
         </ListGroupItem>
         <ListGroupItem tag="a" href="#">
-          <i class="fa fa-youtube-play"></i>
+          <i className="fa fa-youtube-play"></i>
         </ListGroupItem>
       </ListGroup>
     </Col>

@@ -4,7 +4,7 @@ import StepCard from "./StepCard";
 
 const StepsToGetVaccinatedSection = () => {
   return (
-    <section className="py-5 my-5 stets-to-get-section">
+    <section className="py-5 my-5 steps-to-get-section">
       <Container>
         <Row className="align-items-center ">
           <Col className="justify-content-center text-center">

@@ -27,9 +27,16 @@ const LearnVaccineSection = () => {
                   and many kind of vaccine to you all-in-one place.
                 </p>
               </Col>
-              <ButtonToggle className=" learning-vaccinate-btn py-2 px-3 mt-2">
-                Learn the Vaccine
-              </ButtonToggle>
+
+              <Col className="my-1" xs="12">
+                <a
+                  href="/#"
+                  role="button"
+                  className="justify-content-center learning-vaccinate-btn my-5"
+                >
+                  Learn the Vaccine
+                </a>
+              </Col>
             </Col>
           </Col>
         </Row>

@@ -10,14 +10,14 @@ const FinalInvitationSection = () => {
             <h3 className="invitation-title-section">
               Vaccinate <b className="title-color">Yourself</b> Now
             </h3>
-            <p class=" my-3 invitation-caption">
+            <p className=" my-3 invitation-caption">
               Find the nearest vaccination service from your location now and
               get vaccinate to protect yourself and the others
             </p>
             <a
               href="/#"
               role="button"
-              className="justigy-content-center invitation-btn my-5 pt-3 "
+              className="justify-content-center invitation-btn my-5 pt-3 "
             >
               Find & Register
             </a>
