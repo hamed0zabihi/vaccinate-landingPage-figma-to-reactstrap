@@ -18,14 +18,14 @@ const HeaderSection = () => {
       <Container>
         <div>
           <Navbar expand="md" light>
-            <NavbarBrand href="/">
+            <NavbarBrand href="/#">
               <img src="./img/logo/logo.svg" alt="logo" />
             </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
               <Nav navbar className="ms-auto">
                 <NavItem>
-                  <NavLink href="/components/">about us</NavLink>
+                  <NavLink href="/#">about us</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/#">learning the vaccine</NavLink>
